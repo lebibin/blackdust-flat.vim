@@ -21,7 +21,6 @@ hi Folded guifg=#dca3a3 guibg=#333333 guisp=#333333 gui=NONE ctermfg=181 ctermbg
 hi PreCondit guifg=#dfaf8f guibg=NONE guisp=NONE gui=bold ctermfg=180 ctermbg=NONE cterm=bold
 hi Include guifg=#ffcfaf guibg=NONE guisp=NONE gui=bold ctermfg=223 ctermbg=NONE cterm=bold
 "hi TabLineSel -- no settings --
-hi StatusLineNC guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252 cterm=NONE
 "hi CTagsMember -- no settings --
 hi NonText guifg=#1f1f1f guibg=NONE guisp=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE
 "hi CTagsGlobalConstant -- no settings --
@@ -37,7 +36,6 @@ hi StorageClass guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=15 ctermbg=
 hi Todo guifg=#ffffff guibg=#df4949 guisp=#df4949 gui=bold ctermfg=15 ctermbg=167 cterm=bold
 hi Special guifg=#8ad6ff guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#7f7f7f guibg=#464646 guisp=#464646 gui=NONE ctermfg=8 ctermbg=238 cterm=NONE
-hi StatusLine guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73 cterm=NONE
 hi Normal guifg=#ffffff guibg=#3f3f3f guisp=#3f3f3f gui=NONE ctermfg=15 ctermbg=237 cterm=NONE
 hi Label guifg=#8fffff guibg=NONE guisp=NONE gui=underline ctermfg=123 ctermbg=NONE cterm=underline
 "hi CTagsImport -- no settings --
@@ -100,3 +98,18 @@ hi DiffAdd guifg=NONE guibg=#613c46 guisp=#613c46 gui=NONE ctermfg=NONE ctermbg=
 hi cursorim guifg=#192224 guibg=#536991 guisp=#536991 gui=NONE ctermfg=235 ctermbg=60 cterm=NONE
 "hi clear -- no settings --
 hi condtional guifg=#8fffff guibg=NONE guisp=NONE gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE
+" Status line modifications
+
+hi StatusLine guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73 cterm=NONE
+hi StatusLineModified cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73
+hi StatusLinePreview cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73
+hi StatusLineReadonly cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73
+hi StatusLineSpecial cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73
+hi StatusLineUnmodifiable cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73
+
+hi StatusLineNC guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252 cterm=NONE
+hi StatusLineModifiedNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLinePreviewNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLineReadonlyNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLineSpecialNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLineUnmodifiableNC cterm=reverse guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
