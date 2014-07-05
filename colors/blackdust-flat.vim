@@ -108,8 +108,8 @@ hi StatusLineSpecial cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29
 hi StatusLineUnmodifiable cterm=bold,reverse guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73
 
 hi StatusLineNC guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252 cterm=NONE
-hi StatusLineModifiedNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
-hi StatusLinePreviewNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
-hi StatusLineReadonlyNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
-hi StatusLineSpecialNC cterm=reverseguifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLineModifiedNC cterm=reverse guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLinePreviewNC cterm=reverse guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLineReadonlyNC cterm=reverse guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
+hi StatusLineSpecialNC cterm=reverse guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
 hi StatusLineUnmodifiableNC cterm=reverse guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252
