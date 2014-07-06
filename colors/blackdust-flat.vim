@@ -13,7 +13,7 @@ let g:colors_name = "blackdust-flat"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73 cterm=NONE
+  hi CursorLine guifg=#45b29c guibg=#333333 guisp=#333333 gui=bold ctermfg=15 ctermbg=236 cterm=bold
   hi ColorColumn guibg=#7f7f7f ctermbg=8
   hi PMenu guifg=#333333 guibg=#cccccc guisp=#cccccc gui=NONE ctermfg=236 ctermbg=252 cterm=NONE
   hi PMenuSel guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73 cterm=NONE
