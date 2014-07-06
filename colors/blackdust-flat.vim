@@ -54,7 +54,7 @@ hi Float guifg=#9c93b3 guibg=NONE guisp=NONE gui=NONE ctermfg=103 ctermbg=NONE c
 hi Number guifg=#94b5ae guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#dca3a3 guibg=NONE guisp=NONE gui=bold ctermfg=181 ctermbg=NONE cterm=bold
 hi Operator guifg=#ffffff guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
-"hi CursorLine -- no settings --
+hi CursorLine guifg=#ffffff guibg=#45b29c guisp=#45b29c gui=NONE ctermfg=15 ctermbg=73 cterm=NONE
 "hi Union -- no settings --
 "hi TabLineFill -- no settings --
 hi Question guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=15 ctermbg=NONE cterm=bold
